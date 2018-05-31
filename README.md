@@ -1,26 +1,20 @@
 DEMO
 ===========================
-###环境依赖
-
+环境依赖
+----------
     node v0.10.28+
     reids ~
-
-###部署步骤
-####1.添加系统环境变量
-
-    export $PORTAL_VERSION="production" // production, test, dev
-
-
-####2.npm install  //安装node运行环境<br>
-####3.gulp build   //前端编译<br>
-####4.启动两个配置(已forever为例)
-
-    eg: forever start app-service.js
-        forever start logger-service.js
-
-
-###目录结构描述
-
+部署步骤
+----------
+    1.添加系统环境变量
+        export $PORTAL_VERSION="production" // production, test, dev
+    2.npm install  //安装node运行环境<br>
+    3.gulp build   //前端编译<br>
+    4.启动两个配置(已forever为例)
+        eg: forever start app-service.js
+            forever start logger-service.js
+目录结构描述
+----------
     ├── Readme.md                   // help
     ├── app                         // 应用
     ├── config                      // 配置
@@ -46,10 +40,8 @@ DEMO
     ├── test
     ├── test-service.js
     └── tools
-
-
-###V1.0.0 版本内容更新
-
+V1.0.0 版本内容更新
+----------
     1. 新功能	 aaaaaaaaa
     2. 新功能	 bbbbbbbbb
     3. 新功能	 ccccccccc

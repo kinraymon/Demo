@@ -11,8 +11,8 @@ reids ~
     export $PORTAL_VERSION="production" // production, test, dev
 
 
-####2.npm install  //安装node运行环境
-####3.gulp build   //前端编译
+####2.npm install  //安装node运行环境<br>
+####3.gulp build   //前端编译<br>
 ####4.启动两个配置(已forever为例)
 
     eg: forever start app-service.js<br>
@@ -50,6 +50,7 @@ reids ~
 
 
 ###V1.0.0 版本内容更新
+
     1. 新功能	 aaaaaaaaa<br>
     2. 新功能	 bbbbbbbbb<br>
     3. 新功能	 ccccccccc<br>
